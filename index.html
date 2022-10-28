@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+    <style>
+        @keyframes movement {
+            0% {
+                transform: translateX(0px) translateY(0px);
+            }
+            3% {
+                transform: translateX(50px) translateY(0px);
+            }
+            6% {
+                transform: translateX(100px) translateY(0px);
+            }
+            9% {
+                transform: translateX(150px) translateY(0px);
+            }
+            12% {
+                transform: translateX(200px) translateY(0px);
+            }
+            15% {
+                transform: translateX(250px) translateY(0px);
+            }
+            18% {
+                transform: translateX(300px) translateY(0px);
+            }
+            21% {
+                transform: translateX(350px) translateY(0px);
+            }
+            24% {
+                transform: translateX(350px) translateY(50px);
+            }
+            27% {
+                transform: translateX(350px) translateY(100px);
+            }
+            30% {
+                transform: translateX(350px) translateY(150px);
+            }
+            33% {
+                transform: translateX(350px) translateY(200px);
+            }
+            36% {
+                transform: translateX(350px) translateY(250px);
+            }
+            39% {
+                transform: translateX(350px) translateY(300px);
+            }
+            42% {
+                transform: translateX(350px) translateY(350px);
+            }
+            45% {
+                transform: translateX(350px) translateY(400px);
+            }
+            48% {
+                transform: translateX(300px) translateY(400px);
+            }
+            51% {
+                transform: translateX(250px) translateY(400px);
+            }
+            54% {
+                transform: translateX(200px) translateY(400px);
+            }
+            57% {
+                transform: translateX(150px) translateY(400px);
+            }
+            60% {
+                transform: translateX(100px) translateY(400px);
+            }
+            63% {
+                transform: translateX(50px) translateY(400px);
+            }
+            66% {
+                transform: translateX(0px) translateY(400px);
+            }
+            69% {
+                transform: translateX(0px) translateY(350px);
+            }
+            72% {
+                transform: translateX(0px) translateY(300px);
+            }
+            75% {
+                transform: translateX(0px) translateY(250px);
+            }
+            78% {
+                transform: translateX(0px) translateY(200px);
+            }
+            81% {
+                transform: translateX(0px) translateY(150px);
+            }
+            84% {
+                transform: translateX(0px) translateY(100px);
+            }
+            87% {
+                transform: translateX(0px) translateY(50px);
+            }
+            90% {
+                transform: translateX(0px) translateY(0px);
+            }
+        }
+        
+        #circle {
+            width: 100px;
+            height: 100px;
+            opacity: 0.5;
+            background-color: rgb(108, 0, 90);
+            border-radius: 50%;
+            position: relative;
+            animation-name: movement;
+            animation-duration: 15s;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: 100px 100px 100px 500px;">
+        <div id="circle"></div>
+    </div>
+</body>
+
+</html>
